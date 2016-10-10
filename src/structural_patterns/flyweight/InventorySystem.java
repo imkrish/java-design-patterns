@@ -8,8 +8,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
  */
 public class InventorySystem {
 
-    // Client
-
     private final Catalog catalog = new Catalog();
     private final List<Order> orders = new CopyOnWriteArrayList<Order>();
 
