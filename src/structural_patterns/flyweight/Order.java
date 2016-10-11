@@ -5,6 +5,8 @@ package structural_patterns.flyweight;
  */
 public class Order {
 
+    // Context
+
     private final int orderNumber;
     private final Item item;
 

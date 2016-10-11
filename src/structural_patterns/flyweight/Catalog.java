@@ -8,6 +8,8 @@ import java.util.Map;
  */
 public class Catalog {
 
+    // Flyweight Factory
+
     private Map<String, Item> items = new HashMap<String, Item>();
 
     public Item lookup(String itemName) {
